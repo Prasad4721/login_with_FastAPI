@@ -1,0 +1,51 @@
+2025-05-31 17:12:29,369 - INFO - Login attempt for user: ajinkyatalekar39@gmail.com
+2025-05-31 17:12:29,418 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ajinkya\Desktop\FastAPI\task\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-31 17:12:29,837 - INFO - Successful login for user: ajinkyatalekar39@gmail.com
+2025-05-31 17:12:29,937 - INFO - User data accessed: ajinkyatalekar39@gmail.com
+2025-05-31 17:13:17,615 - INFO - Login attempt for user: prasadrahane02@gmail.com
+2025-05-31 17:13:17,623 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ajinkya\Desktop\FastAPI\task\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-31 17:13:17,969 - WARNING - Failed login attempt for user: prasadrahane02@gmail.com
+2025-05-31 17:13:23,871 - INFO - Login attempt for user: prasadrahane02@gmail.com
+2025-05-31 17:13:24,198 - INFO - Successful login for user: prasadrahane02@gmail.com
+2025-05-31 17:13:24,255 - INFO - User data accessed: prasadrahane02@gmail.com
+2025-05-31 17:36:48,218 - INFO - Login attempt for user: prasadrahane02@gmail.com
+2025-05-31 17:36:48,555 - INFO - Successful login for user: prasadrahane02@gmail.com
+2025-05-31 17:36:48,617 - INFO - User data accessed: prasadrahane02@gmail.com
+2025-05-31 17:40:36,629 - INFO - Login attempt for user: prasadrahane02@gmail.com
+2025-05-31 17:40:36,969 - WARNING - Failed login attempt for user: prasadrahane02@gmail.com
+2025-05-31 17:40:45,807 - INFO - Login attempt for user: prasadrahane02@gmail.com
+2025-05-31 17:40:46,113 - INFO - Successful login for user: prasadrahane02@gmail.com
+2025-05-31 17:40:46,242 - INFO - User data accessed: prasadrahane02@gmail.com
+2025-05-31 17:41:07,895 - INFO - Login attempt for user: prasadrahane02@gmail.com
+2025-05-31 17:41:08,202 - INFO - Successful login for user: prasadrahane02@gmail.com
+2025-05-31 17:41:08,250 - INFO - User data accessed: prasadrahane02@gmail.com
+2025-05-31 17:41:15,947 - INFO - User data accessed: prasadrahane02@gmail.com
+2025-05-31 17:43:13,952 - INFO - Login attempt for user: ajinkyatalekar39@gmail.com
+2025-05-31 17:43:14,318 - INFO - Successful login for user: ajinkyatalekar39@gmail.com
+2025-05-31 17:43:38,070 - INFO - Login attempt for user: prasadrahane02@gmail.com
+2025-05-31 17:43:38,374 - INFO - Successful login for user: prasadrahane02@gmail.com
+2025-05-31 17:54:48,274 - INFO - Login attempt for user: prasadrahane02@gmail.com
+2025-05-31 17:54:48,681 - INFO - Successful login for user: prasadrahane02@gmail.com
+2025-05-31 17:56:03,120 - INFO - Attempting to create new user: prasadrahane02@gmail.com
+2025-05-31 17:56:03,448 - ERROR - Error creating user prasadrahane02@gmail.com: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'prasadrahane02@gmail.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (name, email, password) VALUES (%(name)s, %(email)s, %(password)s)]
+[parameters: {'name': 'Prasad', 'email': 'prasadrahane02@gmail.com', 'password': '$2b$12$n2AMkrRwiAOEF6qkma7quuI2XCY4iMwqVhWc5tib2hWLg7XiE1u0W'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-31 17:59:24,589 - INFO - Attempting to create new user: prasadrahane02@gmail.com
+2025-05-31 17:59:24,596 - WARNING - Attempt to create duplicate user: prasadrahane02@gmail.com
+2025-05-31 20:39:23,649 - INFO - Login attempt for user: prasadrahane02@gmail.com
+2025-05-31 20:39:24,018 - INFO - Successful login for user: prasadrahane02@gmail.com
+2025-05-31 20:46:02,587 - INFO - Login attempt for user: ajinkyatalekar39@gmail.com
+2025-05-31 20:46:02,940 - INFO - Successful login for user: ajinkyatalekar39@gmail.com
+2025-05-31 20:46:43,379 - INFO - Login attempt for user: ajinkyatalekar39@gmail.com
+2025-05-31 20:46:43,724 - INFO - Successful login for user: ajinkyatalekar39@gmail.com
